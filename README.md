@@ -8,6 +8,8 @@ Ik heb geen rekening gehouden met:
 
 ### commands:
 Mockdata is aan te passen in de mockdata folder
+
+
 ``
 serverless invoke local --function getShippingDates -p ./mock-data/deliverydate.json
 ``
