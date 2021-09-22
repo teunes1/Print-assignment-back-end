@@ -1,0 +1,17 @@
+service: print-assignment
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+
+functions:
+  getShippingDates:
+    handler: src/handlers/ShippingDateHandler.getShippingDates
+    events:
+      - httpApi:
+          path: /shippingdates/{supplier}/{toCountry}/{startDate}/{endDate}
+          method: get
+plugins:
+  - serverless-plugin-typescript

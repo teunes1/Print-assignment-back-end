@@ -1,0 +1,32 @@
+[
+    {
+        "id": "PNL",
+        "name": "Post NL",
+        "price": 5,
+        "countries": ["nl", "be"]
+    },
+    {
+        "id": "DHP",
+        "name": "DHL",
+        "price": 5,
+        "countries": ["nl", "be", "fr"]
+    },
+    {
+        "id": "DHP_EXPRESS",
+        "name": "DHL ochtend levering",
+        "price": 7.5,
+        "countries": ["nl", "be"]
+    },
+    {
+        "id": "DPD",
+        "name": "DPD",
+        "price": 7,
+        "countries": ["nl", "fr"]
+    },
+    {
+        "id": "RTG",
+        "name": "Koerier",
+        "price": 25,
+        "countries": ["nl", "be"]
+    }
+]

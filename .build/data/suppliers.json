@@ -1,0 +1,41 @@
+[
+    {
+        "id": "KN",
+        "address": {
+            "country": "nl"
+        },
+        "carriers": [
+            "PNL",
+            "RTG",
+            "DHP",
+            "DHP_EXPRESS"
+        ]
+    },
+    {
+        "id": "TMB",
+        "address": {
+            "country": "nl"
+        },
+        "holidays": [
+            "2021-05-07",
+            "2021-05-08"
+        ],
+        "carriers": [
+            "PNL",
+            "DPD",
+            "DHP"
+        ]
+    },
+    {
+        "id": "FRS",
+        "address": {
+            "country": "fr"
+        },
+        "holidays": [
+            "2021-05-09"
+        ],
+        "carriers": [
+            "DHP"
+        ]
+    }
+]
